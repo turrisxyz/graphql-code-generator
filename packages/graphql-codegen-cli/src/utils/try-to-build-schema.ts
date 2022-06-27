@@ -1,5 +1,5 @@
 import { DocumentNode, GraphQLSchema, buildASTSchema } from 'graphql';
-import { debugLog } from './debugging';
+import { debugLog } from './debugging.js';
 
 export function tryToBuildSchema(schema: DocumentNode): GraphQLSchema {
   try {
